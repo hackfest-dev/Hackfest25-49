@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES2015", 
+      "lib": ["ES2015", "DOM"], // Matching the target
+      "outDir": "./dist",
+      "strict": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "declaration": true,
+      "rootDirs": ["./src", "./test"]
+    },
+    "exclude": ["examples"]
+  }
+  
